@@ -25,6 +25,7 @@ header {
     border: 2px solid gray;
     color: #fff;
     padding: 20px;
+    margin-bottom: 100px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -38,7 +39,7 @@ header {
 
 .title {
     font-weight: 900;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .nav-ul {
@@ -63,16 +64,90 @@ header {
     color: #ffd700;
 }
 
-
-
-
 /* MAIN */
-main {
-    flex: 1;
+.main {
+    color: #fff;
+    /* flex: 1; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 100px;
 }
 
+main > h2 {
+    text-align: left;
+    width: 100%;
+    max-width: 20vw;
+    margin-left: -35%;
+    font-size: 35px;
+    font-weight: 900;
+    color: red;
+}
 
+main > p {
+    width: 100%;
+    height: auto;
+    max-width: 50vw;
+    text-align: center;
+}
 
+main > a {
+    color: #fff;
+    border: #fff solid 3px;
+    border-radius: 20px;
+    background-color: cadetblue;
+    padding: 10px;
+    margin: 50px 0 30px;
+}
+
+.container-gif-main {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+main > .img-home {
+    width: 100%;
+    height: auto;
+    max-width: 15vw;
+    display: block;
+    margin: 0 auto;
+}
+
+.back-gif-main {
+    background-image: url("./assets/damier.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.back-gif-main.right {
+    width: 100%;
+    height: auto;
+    max-width: 100vw;
+    display: block;
+    margin: 0 auto;
+    background-size: 350%;
+    background-repeat: no-repeat;
+}
+
+.back-gif-main.left {
+    transform: scaleX(-1);
+    width: 100%;
+    height: auto;
+    max-width: 100vw;
+    display: block;
+    margin: 0 auto;
+    background-size: 350%;
+    background-repeat: no-repeat;
+}
+
+.img-presentation {
+   width: 250vw;
+   height: auto;
+}
 
 /* Style pour le footer */
 footer {
@@ -88,12 +163,10 @@ footer {
     justify-content: space-around;
 }
 
-/* Style pour le paragraphe de contact */
 footer p {
     margin: 10px 0;
 }
 
-/* Style pour la liste de liens dans le footer */
 footer ul {
     list-style: none;
     padding: 0;
@@ -113,11 +186,6 @@ footer ul li a:hover {
     color: #ffcc00;
 }
 
-
-
-
-
-
-
-
-
+::-webkit-scrollbar {
+    display: none;
+}
