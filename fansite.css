@@ -1,0 +1,104 @@
+/* Rénitialisation */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+/* Header - NavBar */
+header {
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/* Style du logo */
+.logo img {
+    width: 100px;
+}
+
+.nav-ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-ul li {
+    margin: 10px;
+}
+
+.nav-ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.nav-ul li a:hover {
+    color: #ffd700;
+}
+
+
+
+
+/* MAIN */
+main {
+    flex: 1;
+}
+
+
+
+
+/* Style pour le footer */
+footer {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Style pour le paragraphe de contact */
+footer p {
+    margin: 10px 0;
+}
+
+/* Style pour la liste de liens dans le footer */
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer ul li a:hover {
+    color: #ffcc00;
+}
+
+
+
+
+
+
+
+
+
