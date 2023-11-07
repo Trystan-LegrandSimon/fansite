@@ -83,6 +83,9 @@ footer {
     color: #fff;
     text-align: center;
     padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 /* Style pour le paragraphe de contact */
