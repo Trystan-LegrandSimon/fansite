@@ -8,6 +8,7 @@
     text-decoration: none;
     list-style: none;
     font-family: 'Kalam';
+    color: #fff;
 }
 
 /* ------------------- DÉBUT DE LA BASE ------------------- */
@@ -18,6 +19,7 @@ body {
     background-color: black;
 }
 
+/* Flèche ↑ pour retour haut de page */
 .scroll-to-top {
     position: fixed;
     bottom: 20px;
@@ -45,7 +47,6 @@ header {
     box-shadow: 0px 5px 8px 5px rgba(255,255,255,0.4);
     border-radius: 0 0 20px 20px;
     border: 2px solid gray;
-    color: #fff;
     padding: 20px;
     margin-bottom: 100px;
     display: flex;
@@ -77,13 +78,12 @@ header {
 
 .nav-ul li a {
     text-decoration: none;
-    color: #fff;
     transition: color 0.3s;
     font-size: 18px;
 }
 
 .nav-ul li a:hover {
-    color: #ffd700;
+    color: red;
 }
 
 /* Style pour le footer */
@@ -92,7 +92,6 @@ footer {
     box-shadow: 0px -5px 8px 5px rgba(255,255,255,0.4);
     border-radius: 20px 20px 0 0;
     border: 2px solid gray;
-    color: #fff;
     text-align: center;
     padding: 10px;
     display: flex;
@@ -104,23 +103,13 @@ footer p {
     margin: 10px 0;
 }
 
-footer ul {
-    list-style: none;
-    padding: 0;
-}
-
 footer ul li {
     display: inline;
     margin-right: 20px;
 }
 
-footer ul li a {
-    text-decoration: none;
-    color: #fff;
-}
-
 footer ul li a:hover {
-    color: #ffcc00;
+    color: blue;
 }
 
 ::-webkit-scrollbar {
@@ -132,7 +121,6 @@ footer ul li a:hover {
 /* ---------------- DÉBUT PAGE INDEX --------------- */
 /* MAIN */
 .main-index {
-    color: #fff;
     /* flex: 1; */
     display: flex;
     align-items: center;
@@ -159,7 +147,6 @@ footer ul li a:hover {
 }
 
 .main-index > a {
-    color: #fff;
     border: #fff solid 3px;
     border-radius: 20px;
     background-color: cadetblue;
@@ -215,7 +202,6 @@ footer ul li a:hover {
    height: auto;
 }
 /* ---------------- FIN PAGE INDEX --------------- */
-
 
 /* ---------------- DÉBUT PAGE ACTUALITÉES --------------- */
 
