@@ -48,11 +48,11 @@ header {
     border-radius: 0 0 20px 20px;
     border: 2px solid gray;
     padding: 20px;
-    margin-bottom: 100px;
     display: flex;
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
+    margin-bottom: 75px;
 }
 
 /* Style du logo */
@@ -62,7 +62,8 @@ header {
 
 .title {
     font-weight: 900;
-    font-size: 30px;
+    font-size: 1.8vw;
+    text-shadow: 0px 17px 16px #CE0000;
 }
 
 .nav-ul {
@@ -204,22 +205,46 @@ footer ul li a:hover {
 /* ---------------- FIN PAGE INDEX --------------- */
 
 /* ---------------- DÉBUT PAGE ACTUALITÉES --------------- */
-
-
 .main-actualite {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    /* justify-content: center; */
+    justify-content: center;
+    text-align: center;
     align-items: center;
+    margin-bottom: 45px;
+}
+
+.main-actualite > h2 {
+    font-weight: 900;
+    font-size: 4vw;
+    margin-bottom: 50px;
+
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    width: 60%;
+    background-color: white; 
+    box-shadow: 5px 5px 15px 5px white;
 }
 
 .container-vs-actualite {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 50px 0 50px;
+}
+
+@media (max-width: 1060px) {
+    .container-vs-actualite {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 }
 
 .container-vs-actualite > img {
@@ -238,27 +263,46 @@ footer ul li a:hover {
 
 .sous-container-actualite.red {
     border: 3px solid red;
-    margin-right: 50px;
+    margin: 0 50px;
+    box-shadow: -5px 5px 15px 5px red;
 }
 
 .sous-container-actualite.blue {
     border: 3px solid blue;
-    margin-left: 50px;
+    margin: 0 50px;
+    box-shadow: 5px 5px 15px 5px blue;
+}
+
+.sous-container-actualite-versus {
+    /* background-color: blue; */
+    width: 100%;
+    height: auto;
+    max-width: 5vw;
 }
 
 .img-actualite {
-    width: 100%; /* Remplit le conteneur */
-    height: 100%; /* Remplit le conteneur */
+    width: 100%;
+    height: 100%;
     object-fit: cover;
 }
-.img-actualite.centre {
+
+.img-actualite-centre {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.main-actualite-h3 {
+    margin: 50px 0;
+    font-size: 2.5vw;
+}
+
+.main-actualite > p {
+    font-size: 1.05vw;
     width: 100%;
     height: auto;
-    max-width: 5%;
+    max-width: 50%;
+    margin-bottom: 30px;
 }
 
 /* ---------------- FIN PAGE ACTUALITÉES --------------- */
-
-    /* display: flex;
-    flex-direction: column;
-    flex-wrap: wrap; */
