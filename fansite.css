@@ -206,6 +206,59 @@ footer ul li a:hover {
 /* ---------------- DÉBUT PAGE ACTUALITÉES --------------- */
 
 
+.main-actualite {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    align-items: center;
+}
 
+.container-vs-actualite {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-vs-actualite > img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+.sous-container-actualite {
+    width: 400px;
+    height: 400px;
+    border: 3px solid red;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.sous-container-actualite.red {
+    border: 3px solid red;
+    margin-right: 50px;
+}
+
+.sous-container-actualite.blue {
+    border: 3px solid blue;
+    margin-left: 50px;
+}
+
+.img-actualite {
+    width: 100%; /* Remplit le conteneur */
+    height: 100%; /* Remplit le conteneur */
+    object-fit: cover;
+}
+.img-actualite.centre {
+    width: 100%;
+    height: auto;
+    max-width: 5%;
+}
 
 /* ---------------- FIN PAGE ACTUALITÉES --------------- */
+
+    /* display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; */
