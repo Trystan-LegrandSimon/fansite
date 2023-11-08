@@ -362,6 +362,82 @@ th::after {
 /* ---------------- FIN PAGE ÉVÉNEMENTS --------------- */
 
 /* ---------------- DÉBUT PAGE PHOTOS & VIDÉOS --------------- */
+.main-photos-videos {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-photos-videos > h3 {
+    margin: 100px 0 50px;
+    margin: 50px 0;
+    width: 100%;
+    height: auto;
+    max-width: 50vw;
+    font-size: 35px;
+}
+
+.grid-photos {
+    margin-bottom: 100px;
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+
+    width: 100%;
+    height: auto;
+    max-width: 1200px;
+}
+
+.grid-photos > .case {
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.case > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 25px;
+    box-shadow: 5px 5px 15px 5px #ffffff2e;
+    transition: transform 0.3s;
+}
+
+.case:hover img {
+    transform: scale(2);
+}
+
+.grid-videos {
+    margin-bottom: 100px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+
+    width: 100%;
+    height: auto;
+    max-width: 1400px;
+}
+
+.grid-videos > .case {
+    /* background-color: blue; */
+    padding: 10px;
+    
+}
+.case > iframe {
+    box-shadow: 5px 5px 15px 5px #ffffff2e;
+    border-radius: 25px;
+    aspect-ratio: 16/9;  
+}
+
+
+
 
 
 
