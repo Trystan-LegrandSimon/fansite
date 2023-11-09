@@ -1,31 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
 
-    <link rel="stylesheet" href="../fansite.css">
-</head>
-<body>
+        <link rel="stylesheet" href="../fansite.css">
+    </head>
 
-<h2>Contactez-nous</h2>
+    <body class="body-nous-contacter">
+        <h2 class="title-page-h2">Contactez-nous</h2>
 
-<form action="/envoyer_message" method="post">
-    <label for="nom">Nom :</label>
-    <input type="text" id="nom" name="nom" required><br><br>
+        <form action="/envoyer_message" method="post">
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" placeholder="Entrez votre nom..." required><br><br>
 
-    <label for="email">Email :</label>
-    <input type="email" id="email" name="email" required><br><br>
+            <label for="prenom">Prénom :</label>
+            <input type="text" id="prenom" name="prenom" placeholder="Entrez votre prénom..." required><br><br>
 
-    <label for="sujet">Sujet :</label>
-    <input type="text" id="sujet" name="sujet" required><br><br>
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" placeholder="Entrez votre email..." required><br><br>
 
-    <label for="message">Message :</label><br>
-    <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+            <label for="sujet">Sujet :</label>
+            <input type="text" id="sujet" name="sujet" placeholder="Entrez votre sujet..." required><br><br>
 
-    <input type="submit" value="Envoyer">
-</form>
+            <label for="message">Message :</label><br>
+            <textarea id="message" name="message" rows="4" cols="50" placeholder="Entrez votre message..." required></textarea><br><br>
 
-</body>
+            <input class="btn-main" type="submit" value="Envoyer">
+        </form>
+
+        <a class="fleche-gauche" href="../index.html">➜</a>
+    </body>
 </html>
