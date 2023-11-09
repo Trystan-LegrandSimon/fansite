@@ -92,12 +92,16 @@ footer {
 footer p {
     margin: 10px 0;
 }
-footer ul li {
-    display: inline;
-    margin-right: 20px;
+.reseaux-sociaux {
+    display: flex;
+    align-items: center;
 }
-footer ul li a:hover {
-    color: blue;
+.reseau-social i {
+    padding: 0 10px 0 10px;
+    color: #35363a;
+}
+.reseau-social:hover {
+    transform: scale(1.5);
 }
 ::-webkit-scrollbar {
     display: none;
@@ -388,3 +392,7 @@ th::after {
     aspect-ratio: 16/9;  
 }
 /* ---------------- FIN PAGE PHOTOS & VIDÉOS --------------- */
+
+
+
+
