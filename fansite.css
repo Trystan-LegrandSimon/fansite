@@ -422,3 +422,35 @@ th::after {
   aspect-ratio: 16/9;
 }
 /* ---------------- FIN PAGE PHOTOS & VIDÉOS --------------- */
+
+
+body {
+    background-color: black; /* Fond noir pour l'ensemble de la page */
+    color: white; /* Texte blanc pour un contraste adéquat */
+}
+
+form {
+    max-width: 400px; /* Largeur maximale du formulaire pour une lisibilité optimale */
+    margin: 0 auto; /* Centrage horizontal du formulaire */
+    padding: 20px; /* Espacement intérieur du formulaire */
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%; /* Largeur pleine pour les champs de texte */
+    padding: 10px; /* Espacement interne pour un confort visuel */
+    margin-bottom: 10px; /* Espacement entre les champs */
+    background-color: black; /* Fond noir pour les champs de texte */
+    color: white; /* Texte blanc dans les champs de texte */
+    border: 1px solid white; /* Bordure blanche autour des champs */
+}
+
+input[type="submit"] {
+    width: 100%; /* Largeur pleine pour le bouton soumettre */
+    padding: 10px; /* Espacement interne du bouton */
+    background-color: white; /* Fond blanc pour le bouton */
+    color: black; /* Texte noir sur le bouton */
+    border: none; /* Pas de bordure pour le bouton */
+    cursor: pointer; /* Curseur indiquant l'interaction */
+}
