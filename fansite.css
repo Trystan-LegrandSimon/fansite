@@ -77,9 +77,8 @@ header {
 .nav-ul li a:hover {
   color: red;
 }
-
 .nav-ul li a.selected {
-    color: red;
+  color: red;
 }
 /* Style pour le footer */
 footer {
@@ -97,8 +96,8 @@ footer > a:nth-child(1) {
   transition: transform 0.5s ease;
 }
 footer > a:nth-child(1):hover {
-    color: blue;
-    transform: scale(1.5);
+  color: blue;
+  transform: scale(1.5);
 }
 footer p {
   margin: 10px 0;
@@ -108,7 +107,7 @@ footer p {
   align-items: center;
 }
 .reseau-social {
-    transition: transform 0.5s ease;
+  transition: transform 0.5s ease;
 }
 .reseau-social:hover {
   transform: scale(2);
@@ -439,46 +438,42 @@ th::after {
 
 /* ---------------- DÉBUT PAGE NOUS CONTACTER --------------- */
 .body-nous-contacter {
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
 .body-nous-contacter > h2 {
-    margin-bottom: -10px;
+  margin-bottom: -10px;
 }
-
 form {
-    max-width: 400px;
-    margin: 0 auto;
-    padding: 20px;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
 }
-
 input[type="text"],
 input[type="email"],
 textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    background-color: black;
-    color: white;
-    border: 1px solid white;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
 }
-
 input[type="submit"] {
-    width: 100%;
-    margin-top: -5px;
-    border: none;
-    cursor: pointer;
+  width: 100%;
+  margin-top: -5px;
+  border: none;
+  cursor: pointer;
 }
 .fleche-gauche {
-    margin-top: -30px;
-    transform: rotate(180deg);
-    font-size: 20px;
-    transition: transform 0.5s ease;
+  margin-top: -30px;
+  transform: rotate(180deg);
+  font-size: 20px;
+  transition: transform 0.5s ease;
 }
 .fleche-gauche:hover {
-    transform: rotate(180deg) scale(2);
+  transform: rotate(180deg) scale(2);
 }
 /* ---------------- FIN PAGE NOUS CONTACTER --------------- */
